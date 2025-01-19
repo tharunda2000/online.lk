@@ -8,7 +8,7 @@ fetch("https://fakestoreapi.com/products")
 
     
   
-    body += `<div class="col">
+    body += `<div data-aos="flip-left" class="col">
         <div class="card shadow-sm">
           <img id="image" src="${element.image}" alt="">
           <div class="card-body">
